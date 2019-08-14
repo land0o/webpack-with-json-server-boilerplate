@@ -1,0 +1,39 @@
+body {
+  background-color: #f5e942;
+  background-image: url(/src/img/can-chat-chatting-362.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#contactContainer {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: space-evenly;
+  margin: auto;
+  border: 1px solid salmon;
+  background: lightgoldenrodyellow;
+  opacity: 0.8;
+}
+#contactForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.contact-card {
+  border: 4px solid darkblue;
+  background: lightcyan;
+  margin: 10px 10px 10px 10px;
+  padding: 15px 15px 15px 15px;
+  width: 25%;
+  opacity: 0.8;
+}
+
+.contact-card:hover {
+  background-color: crimson;
+}
+#saveMe:hover {
+  background-color: lightcoral;
+}

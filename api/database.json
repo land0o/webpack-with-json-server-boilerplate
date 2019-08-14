@@ -1,24 +1,40 @@
 {
-  "posts": [
+  "contacts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Susan",
+      "phoneNumber": "615-534-7689",
+      "address": "111 hell ave",
+      "id": 1
     },
     {
-      "id": 2,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "Zesus",
+      "phoneNumber": "111-111-1111",
+      "address": "001 Mount Olympus",
+      "id": 2
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "James",
+      "phoneNumber": "222-222-2222",
+      "address": "007 way ",
+      "id": 3
+    },
+    {
+      "name": "test",
+      "phoneNumber": "1111",
+      "address": "122 Belinda Dr",
+      "id": 4
+    },
+    {
+      "name": "test",
+      "phoneNumber": "12",
+      "address": "34",
+      "id": 5
+    },
+    {
+      "name": "ee",
+      "phoneNumber": "c223",
+      "address": "4809 arnold drive",
+      "id": 6
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
